@@ -116,3 +116,12 @@
     background-size: 0 2px, 100% 2px;
   }
 }
+
+body,
+html {
+  @apply h-screen w-screen;
+}
+
+.qr-code-wrapper {
+  @apply h-24 w-24;
+}
